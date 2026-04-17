@@ -50,6 +50,7 @@
 </head>
 <body>
     <h1 id="status" class="pink-turn">دور وعد</h1>
+    <h2>hello world</h2>
     <div id="board"></div>
     <div id="footer">طور بواسطة ساجد</div>
     <div id="popup" class="popup"></div>
@@ -62,9 +63,8 @@
         const popup = document.getElementById("popup");
         const laughSound = document.getElementById("laughSound");
         let game = new Chess();
-        let selectedSquare = null;
-        let promotionMove = null;
-
+       
+laughSound;
         function createBoard() {
             boardElement.innerHTML = "";
             game.board().forEach((row, rowIndex) => {
